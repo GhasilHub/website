@@ -69,57 +69,35 @@
   },
   "Pricing": {
     "title": "Pricing & Plans",
-    "description": "Choose the plan that best fits your requirements and budget. Get started today and take your sales to the next level!",
-    "toggle": {
-      "monthly": "Monthly",
-      "yearly": "Yearly"
-    },
-    "plans": {
-      "basic": {
-        "name": "Basic",
-        "currency": "OMR",
-        "monthly": {
-          "price": "7.700",
-          "period": "month"
-        },
-        "yearly": {
-          "price": "6.400",
-          "period": "year",
-          "description": "Billed annually at OMR 77"
-        }
-      },
-      "advance": {
-        "name": "Advance",
-        "currency": "OMR",
-        "monthly": {
-          "price": "11.900",
-          "period": "month"
-        },
-        "yearly": {
-          "price": "9.900",
-          "period": "year",
-          "description": "Billed annually at OMR 119"
-        }
-      },
-      "custom": {
-        "name": "Custom",
-        "description": "Looking for more? Contact Us."
-      }
+    "description": "Start your laundry management journey with our comprehensive solution. Everything you need to manage your business efficiently.",
+    "package": {
+      "name": "GhasilHub Package",
+      "price": "80",
+      "currency": "OMR",
+      "period": "year",
+      "description": "Complete laundry management solution"
     },
     "features": {
-      "productsManager": "Products manager",
-      "invoices": "Invoices",
-      "dashboardReporting": "Dashboard & Reporting",
-      "unlimitedUsers": "Unlimited users",
-      "cashierDevices": "Cashier Devices (1 Free)",
-      "inventoryPurchases": "Inventory & Purchases",
-      "inventoryPurchasesAddon": "Inventory & Purchases (Add-On)",
-      "promotions": "Promotions",
-      "loyalty": "Loyalty",
-      "loyaltyAddon": "Loyalty (Add-On)",
-      "attendanceManagement": "Attendance management",
-      "warehouseBranch": "Warehouse/branch (Add-On)",
-      "installmentsManagement": "Installments management"
+      "cloudSoftware": "Access to GhasilHub cloud software",
+      "unlimitedOrders": "Unlimited orders",
+      "orderTracking": "Basic orders & payment tracking",
+      "analytics": "Analytics and reporting",
+      "whatsappSupport": "WhatsApp support",
+      "customerManagement": "Customer management and tracking",
+      "userManagement": "User and employee management"
+    },
+    "addons": {
+      "title": "Add-ons",
+      "description": "Enhance your package with additional features",
+      "price": "45",
+      "currency": "OMR",
+      "period": "year",
+      "multiLocation": "Multi location service",
+      "addLocation": "Add location"
+    },
+    "custom": {
+      "title": "Looking for more?",
+      "description": "Contact us for custom solutions and enterprise features."
     },
     "buttons": {
       "getStarted": "Get started",

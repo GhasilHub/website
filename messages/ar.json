@@ -75,58 +75,36 @@
     }
   },
   "Pricing": {
-    "title": "الــبــاقــات",
-    "description": "اختر الباقة التي تناسب ميزانيتك. ابدأ اليوم وارتقي بمستوى مبيعاتك!",
-    "toggle": {
-      "monthly": "شهريًا",
-      "yearly": "سنويًا"
-    },
-    "plans": {
-      "basic": {
-        "name": "الأساسية",
-        "currency": "ريال عُماني",
-        "monthly": {
-          "price": "7.700",
-          "period": "شهر"
-        },
-        "yearly": {
-          "price": "6.400",
-          "period": "سنة",
-          "description": "يُدفع سنويًا بقيمة 77 ريال عُماني"
-        }
-      },
-      "advance": {
-        "name": "المتقدمة",
-        "currency": "ريال عُماني",
-        "monthly": {
-          "price": "11.900",
-          "period": "شهر"
-        },
-        "yearly": {
-          "price": "9.900",
-          "period": "سنة",
-          "description": "يُدفع سنويًا بقيمة 119 ريال عُماني"
-        }
-      },
-      "custom": {
-        "name": "مخصصة",
-        "description": "تبحث عن المزيد؟ تواصل معنا."
-      }
+    "title": "الــبــاقــات والأسعار",
+    "description": "ابدأ رحلة إدارة مغسلتك مع الحل الشامل لدينا. كل ما تحتاجه لإدارة أعمالك بكفاءة.",
+    "package": {
+      "name": "باقة غسيل هب",
+      "price": "80",
+      "currency": "ريال عُماني",
+      "period": "سنة",
+      "description": "الحل الشامل لإدارة المغاسل"
     },
     "features": {
-      "productsManager": "إدارة المنتجات",
-      "invoices": "الفواتير",
-      "dashboardReporting": "لوحة التحكم والتقارير",
-      "unlimitedUsers": "مستخدمون غير محدودون",
-      "cashierDevices": "أجهزة الكاشير (1 مجاني)",
-      "inventoryPurchases": "إدارة المخزون والمشتريات",
-      "inventoryPurchasesAddon": "إدارة المخزون والمشتريات (إضافة)",
-      "promotions": "العروض الترويجية",
-      "loyalty": "برنامج الولاء",
-      "loyaltyAddon": "برنامج الولاء (إضافة)",
-      "attendanceManagement": "إدارة الحضور",
-      "warehouseBranch": "المستودع/الفرع (إضافة)",
-      "installmentsManagement": "إدارة الأقساط"
+      "cloudSoftware": "الوصول إلى برنامج غسيل هب السحابي",
+      "unlimitedOrders": "طلبات غير محدودة",
+      "orderTracking": "تتبع الطلبات والمدفوعات ",
+      "analytics": "التحليلات والتقارير",
+      "whatsappSupport": "دعم الواتساب",
+      "customerManagement": "إدارة ومتابعة العملاء",
+      "userManagement": "إدارة المستخدمين والموظفين"
+    },
+    "addons": {
+      "title": "الإضافات",
+      "description": "عزز باقتك بميزات إضافية",
+      "price": "45",
+      "currency": "ريال عُماني",
+      "period": "سنة",
+      "multiLocation": "خدمة المواقع المتعددة",
+      "addLocation": "إضافة موقع"
+    },
+    "custom": {
+      "title": "تبحث عن المزيد؟",
+      "description": "تواصل معنا للحصول على حلول مخصصة وميزات المؤسسات."
     },
     "buttons": {
       "getStarted": "ابدأ الآن",
