@@ -32,17 +32,6 @@ const HeroButtons = memo(function HeroButtons({
           {t('buttons.start')}
         </button>
       </a>
-      <Link
-        href='/#demos'
-        aria-label='View product demos'
-      >
-        <button
-          className='btn-secondary focus-ring min-w-[140px] px-6'
-          type='button'
-        >
-          {t('buttons.demos')}
-        </button>
-      </Link>
     </div>
   );
 });

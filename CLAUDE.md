@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Next.js 15 landing page for FlexiHi, built with TypeScript, Tailwind CSS, and next-intl for internationalization. The project supports both English and Arabic languages with RTL/LTR layout switching. Built with React 19 and modern web technologies.
+This is a Next.js 15 landing page for GhasilHub, built with TypeScript, Tailwind CSS, and next-intl for internationalization. The project supports both English and Arabic languages with RTL/LTR layout switching. Built with React 19 and modern web technologies.
 
 ## Development Commands
 
@@ -77,8 +77,6 @@ IMPORTANT: Always use Playwright MCP to access it and test the changes.
 - Custom font family: Bukra (loaded via local fonts with 9 weight variants)
 - Custom utilities: max-w-content (1440px), m-nav-bar (94px)
 - Responsive design with full RTL/LTR support
-
-IMPORTANT: Use Figma MCP to check the designs from this link: https://www.figma.com/design/TnaWytaqmd2y5JKDfjqkX9/MCP?node-id=1348-131294&m=dev
 
 ### Component Architecture
 

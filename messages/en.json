@@ -8,12 +8,11 @@
     "lang": "عـربـي"
   },
   "Hero": {
-    "title": "Empower Your Sales, Simplify Your Workflow",
-    "subtitle": "Inventory and Sales Management System!",
-    "description": "FlexiHi is your all-in-one solution for inventory and sales management, designed to streamline your workflow, enhance collaboration, and boost productivity. With our user-friendly platform, you can effortlessly plan, execute, and track your sales from start to finish, all in one place.",
+    "title": "Simplify Laundry Management, Grow Your Business",
+    "subtitle": "Laundry Management System",
+    "description": "GhasilHub Laundry Management Software. Try the all-in-one solution to manage your laundry with ease and professionalism.",
     "buttons": {
-      "start": "Get Started",
-      "demos": "See Demos"
+      "start": "Get Started"
     }
   },
   "Services": {
@@ -110,10 +109,7 @@
       },
       "service": {
         "title": "Service Business",
-        "items": [
-          "Saloon",
-          "Repair service"
-        ]
+        "items": ["Saloon", "Repair service"]
       },
       "wholesale": {
         "title": "Wholesale & Warehouse",
