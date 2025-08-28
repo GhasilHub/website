@@ -61,7 +61,7 @@ function Hero({ locale }: LocaleProps) {
 
   return (
     <section
-      className='relative w-full flex flex-col items-center min-h-[600px] md:min-h-[700px] lg:min-h-[866px] overflow-x-hidden bg-primary-lightest'
+      className='relative w-full flex flex-col items-center min-h-[450px] md:min-h-[500px] lg:min-h-[600px] overflow-hidden bg-primary-lightest pt-8 sm:pt-12 md:pt-16'
       aria-label='Hero section showcasing GhasilHub business management platform'
     >
       {/* Decorative background elements - hidden on mobile/tablet */}
@@ -72,7 +72,7 @@ function Hero({ locale }: LocaleProps) {
             aria-hidden='true'
           />
           <div
-            className='absolute end-[443px] top-[464px] w-[168px] h-[168px] bg-secondary rounded-full bg-opacity-60'
+            className='absolute end-[443px] top-[264px] w-[168px] h-[168px] bg-secondary/50 rounded-full bg-opacity-60'
             aria-hidden='true'
           />
         </div>
@@ -95,9 +95,9 @@ function Hero({ locale }: LocaleProps) {
       </div>
 
       {/* Main content */}
-      <div className='relative w-full max-w-content h-full mt-20 md:mt-32 lg:mt-40'>
-        <div className='relative flex flex-col lg:flex-row gap-8 lg:gap-4 justify-between items-center px-4 md:px-6 lg:px-10'>
-          <div className='flex flex-col gap-4 flex-1 w-full lg:w-auto text-center lg:text-start'>
+      <div className='relative w-full max-w-content h-full mt-16 md:mt-20 lg:mt-24'>
+        <div className='relative flex flex-col lg:flex-row gap-6 lg:gap-3 justify-between items-center px-4 md:px-6 lg:px-10'>
+          <div className='flex flex-col gap-3 flex-1 w-full lg:w-auto text-center lg:text-start'>
             <h2 className={subtitleClass}>{t('subtitle')}</h2>
             <h1 className='text-primary text-3xl md:text-4xl lg:text-5xl font-bold leading-snug'>
               {t('title')}
@@ -114,10 +114,10 @@ function Hero({ locale }: LocaleProps) {
               src={chartImage}
               alt='GhasilHub analytics chart showing business performance metrics'
               priority
-              width={700}
-              height={525}
-              className='object-contain w-full max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto lg:mx-0'
-              sizes='(max-width: 640px) 100vw, (max-width: 768px) 80vw, (max-width: 1024px) 50vw, 700px'
+              width={600}
+              height={450}
+              className='object-contain w-full max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg mx-auto lg:mx-0'
+              sizes='(max-width: 640px) 100vw, (max-width: 768px) 70vw, (max-width: 1024px) 45vw, 600px'
             />
           </div>
         </div>

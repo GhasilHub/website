@@ -106,14 +106,12 @@ export default function NavBar({ locale }: LocaleProps) {
               </div>
 
               {/* Sign Up Button */}
-              <a
-                href={EXTERNAL_LINKS.admin}
-                target='_blank'
-                rel='noopener noreferrer'
+              <Link
+                href='#contact'
                 className='bg-[#EF6C00] text-white px-3 sm:px-4 py-2 rounded-xl text-xs sm:text-sm font-medium hover:bg-[#005394] transition-colors duration-200 touch-target'
               >
                 {t('signUp')}
-              </a>
+              </Link>
             </div>
 
             {/* Desktop Right Section */}
@@ -130,18 +128,12 @@ export default function NavBar({ locale }: LocaleProps) {
                   {t('login')}
                 </button>
               </a>
-              <a
-                href={EXTERNAL_LINKS.admin}
-                target='_blank'
-                rel='noopener noreferrer'
+              <Link
+                href='#contact'
+                className='text-white font-medium text-responsive-base rounded-xl bg-secondary px-3 lg:px-4 xl:px-6 py-2 hover:bg-primary hover:shadow-md transition-all duration-200 touch-target'
               >
-                <button
-                  className='text-white font-medium text-responsive-base rounded-xl bg-secondary px-3 lg:px-4 xl:px-6 py-2 hover:bg-primary hover:shadow-md transition-all duration-200 touch-target'
-                  type='button'
-                >
-                  {t('signUp')}
-                </button>
-              </a>
+                {t('signUp')}
+              </Link>
               <LangSwitchButton locale={locale} />
             </ul>
           </nav>

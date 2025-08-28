@@ -116,7 +116,8 @@ function Contact() {
 
   return (
     <section
-      className='w-full flex justify-center bg-white py-12 sm:py-16 lg:py-20'
+      id='contact'
+      className='w-full flex justify-center bg-white py-12 sm:py-16 lg:py-20 section-anchor'
       aria-label='Contact us section'
     >
       <div className='max-w-content w-full px-3 sm:px-6 md:px-8 lg:px-20 flex justify-center'>
