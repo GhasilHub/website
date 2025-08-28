@@ -1,8 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="31" height="41" viewBox="0 0 31 41" fill="none">
-    <path
-        d="M30.2813 17.5376L29.3928 26.2336L26.2112 25.9072L14.8374 24.7411H14.8312L20.6862 36.51L12.8539 40.4002L4.54616 23.6894V23.6876H4.54863L10.23 15.4824L26.2112 17.1196L30.2813 17.5376Z"
-        fill="#005394" />
-    <path
-        d="M26.2112 0.682617V9.56909L8.87164 12.7421H8.86546L0 14.3681V5.47796L4.81389 4.59816H4.81822L26.2112 0.682617Z"
-        fill="#005394" />
+<svg viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simplified washing machine body -->
+  <rect x="10" y="10" width="120" height="140" rx="15" ry="15" fill="#855cf6"/>
+  
+  <!-- Main drum circle -->
+  <circle cx="70" cy="100" r="42" fill="#ffffff"/>
+  <circle cx="70" cy="100" r="38" fill="none" stroke="#855cf6" stroke-width="3"/>
+  
+  <!-- Letter G in center -->
+  <text x="70" y="108" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#855cf6" text-anchor="middle" dominant-baseline="middle">G</text>
+  
+  <!-- Top control panel -->
+  <rect x="25" y="25" width="90" height="20" rx="10" ry="10" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Control buttons -->
+  <circle cx="40" cy="35" r="3" fill="#855cf6"/>
+  <circle cx="55" cy="35" r="3" fill="#855cf6"/>
+  <circle cx="70" cy="35" r="3" fill="#855cf6"/>
+  <circle cx="85" cy="35" r="3" fill="#855cf6"/>
+  <circle cx="100" cy="35" r="3" fill="#855cf6"/>
 </svg>

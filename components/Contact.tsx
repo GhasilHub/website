@@ -46,7 +46,7 @@ const ContactMethodItem = memo<ContactMethodProps>(function ContactMethodItem({
   t,
 }) {
   return (
-    <li className='w-full sm:w-auto flex justify-center sm:justify-start'>
+    <li className={`w-full flex justify-center sm:justify-start ${method.id === 'email' ? 'sm:col-span-2 lg:col-span-1' : ''}`}>
       <a
         href={method.href}
         target='_blank'
@@ -120,12 +120,12 @@ function Contact() {
       aria-label='Contact us section'
     >
       <div className='max-w-content w-full px-3 sm:px-6 md:px-8 lg:px-20 flex justify-center'>
-        <address className='bg-[#0288D10A] rounded-2xl px-4 sm:px-8 md:px-12 lg:px-16 py-8 sm:py-12 lg:py-16 flex flex-col items-center w-full sm:w-fit not-italic max-w-5xl shadow-sm border border-gray-100 mx-2 sm:mx-4 md:mx-6'>
+        <address className='bg-[#0288D10A] rounded-2xl px-4 sm:px-8 md:px-12 lg:px-16 py-8 sm:py-12 lg:py-16 flex flex-col items-center w-full lg:w-fit not-italic max-w-5xl shadow-sm border border-gray-100 mx-2 sm:mx-4 md:mx-6'>
           <h2 className='text-text-primary text-base sm:text-lg lg:text-xl font-medium mb-8 sm:mb-10 lg:mb-12 text-center'>
             {t('title')}
           </h2>
           <ul
-            className='flex flex-col sm:flex-row gap-8 sm:gap-12 lg:gap-16 w-full sm:w-auto items-center sm:items-stretch'
+            className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 w-full items-center place-items-center sm:place-items-start lg:place-items-center'
             role='list'
             aria-label='Contact methods'
           >
