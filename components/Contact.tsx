@@ -31,14 +31,14 @@ const CONTACT_ICONS = {
 } as const;
 
 // Utility function to format phone numbers
-const formatPhoneNumber = (phoneNumber: string): string => {
-  // Remove any existing spaces and format as: +968 9674 7611
-  const cleaned = phoneNumber.replace(/\s/g, '');
-  if (cleaned.startsWith('+968') && cleaned.length === 12) {
-    return `+968 ${cleaned.slice(4, 8)} ${cleaned.slice(8)}`;
-  }
-  return phoneNumber; // Return original if format doesn't match
-};
+// const formatPhoneNumber = (phoneNumber: string): string => {
+//   // Remove any existing spaces and format as: +968 9674 7611
+//   const cleaned = phoneNumber.replace(/\s/g, '');
+//   if (cleaned.startsWith('+968') && cleaned.length === 12) {
+//     return `+968 ${cleaned.slice(4, 8)} ${cleaned.slice(8)}`;
+//   }
+//   return phoneNumber; // Return original if format doesn't match
+// };
 
 // Memoized ContactMethod component
 const ContactMethodItem = memo<ContactMethodProps>(function ContactMethodItem({
@@ -46,7 +46,11 @@ const ContactMethodItem = memo<ContactMethodProps>(function ContactMethodItem({
   t,
 }) {
   return (
-    <li className={`w-full flex justify-start sm:justify-center ${method.id === 'email' ? 'sm:col-span-2 xl:col-span-1' : ''}`}>
+    <li
+      className={`w-full flex justify-start sm:justify-center ${
+        method.id === 'email' ? 'sm:col-span-2 xl:col-span-1' : ''
+      }`}
+    >
       <a
         href={method.href}
         target='_blank'
@@ -64,15 +68,18 @@ const ContactMethodItem = memo<ContactMethodProps>(function ContactMethodItem({
             loading='lazy'
           />
         </div>
-        <div className='flex flex-col gap-0.5 sm:gap-1 lg:gap-1 text-left min-w-0 flex-1'>
+        <div className='flex flex-col gap-0.5 sm:gap-1 lg:gap-1 text-start min-w-0 flex-1'>
           <h5 className='text-text-primary text-sm sm:text-base lg:text-lg font-medium group-hover:text-[#00d4aa] transition-colors duration-300 whitespace-nowrap'>
             {t(method.label)}
           </h5>
-          <p className='text-[#00d4aa] text-sm sm:text-base lg:text-lg font-medium group-hover:brightness-110 transition-all duration-300 break-all sm:break-normal sm:whitespace-nowrap'>
+          <p 
+            className='text-[#00d4aa] text-sm sm:text-base lg:text-lg font-medium group-hover:brightness-110 transition-all duration-300 break-all sm:break-normal sm:whitespace-nowrap'
+            dir={method.id === 'call' || method.id === 'whatsapp' ? 'ltr' : undefined}
+          >
             {method.id === 'call'
-              ? formatPhoneNumber(CONTACT_INFO.phone)
+              ? CONTACT_INFO.phoneDisplay
               : method.id === 'whatsapp'
-              ? formatPhoneNumber(CONTACT_INFO.whatsapp)
+              ? CONTACT_INFO.whatsappDisplay
               : CONTACT_INFO.email}
           </p>
         </div>
