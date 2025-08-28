@@ -8,7 +8,7 @@ import { getMessages } from 'next-intl/server';
 import getAppLocale from '@/utils/getAppLocale';
 
 export const metadata: Metadata = {
-  title: 'FlexiHi - Complete Business Management Solution',
+  title: 'GhasilHub - Laundry Management System',
   description:
     'From the small stuff to the big picture, organizes the work so teams know what to do, why it matters, and how to get it done.',
   keywords: [
@@ -16,44 +16,44 @@ export const metadata: Metadata = {
     'productivity',
     'team collaboration',
     'workflow',
-    'FlexiHi',
+    'GhasilHub',
   ],
-  authors: [{ name: 'FlexiHi Team' }],
-  creator: 'FlexiHi',
-  publisher: 'FlexiHi',
+  authors: [{ name: 'GhasilHub Team' }],
+  creator: 'GhasilHub',
+  publisher: 'GhasilHub',
   robots: 'index, follow',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     alternateLocale: 'ar_SA',
-    url: 'https://flexihi.com',
-    siteName: 'FlexiHi',
-    title: 'FlexiHi - Complete Business Management Solution',
+    url: 'https://ghasilhub.com',
+    siteName: 'GhasilHub',
+    title: 'GhasilHub - Laundry Management System',
     description:
       'From the small stuff to the big picture, organizes the work so teams know what to do, why it matters, and how to get it done.',
     images: [
       {
-        url: 'https://flexihi.com/og-image.png',
+        url: 'https://ghasilhub.com/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'FlexiHi - Business Management Platform',
+        alt: 'GhasilHub - Laundry Management System',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@flexihi',
-    creator: '@flexihi',
-    title: 'FlexiHi - Complete Business Management Solution',
+    site: '@ghasilhub',
+    creator: '@ghasilhub',
+    title: 'GhasilHub - Laundry Management System',
     description:
       'From the small stuff to the big picture, organizes the work so teams know what to do, why it matters, and how to get it done.',
-    images: ['https://flexihi.com/twitter-image.png'],
+    images: ['https://ghasilhub.com/twitter-image.png'],
   },
   alternates: {
-    canonical: 'https://flexihi.com',
+    canonical: 'https://ghasilhub.com',
     languages: {
-      en: 'https://flexihi.com',
-      ar: 'https://flexihi.com/ar',
+      en: 'https://ghasilhub.com',
+      ar: 'https://ghasilhub.com/ar',
     },
   },
   verification: {
@@ -64,23 +64,6 @@ export const metadata: Metadata = {
 const Bukra = localFont({
   variable: '--font-bukra',
   src: [
-    // Commented out unused font weights for better performance
-    // Uncomment as needed when designing new components
-    // {
-    //   path: "../public/fonts/29LT-Bukra-Thin.otf",
-    //   weight: "100",
-    //   style: "normal",
-    // },
-    // {
-    //   path: "../public/fonts/29LT-Bukra-Extra-Light.otf",
-    //   weight: "200",
-    //   style: "normal",
-    // },
-    // {
-    //   path: "../public/fonts/29LT-Bukra-Light.otf",
-    //   weight: "300",
-    //   style: "normal",
-    // },
     {
       path: '../public/fonts/29LT-Bukra-Regular.otf',
       weight: '400',
@@ -101,16 +84,6 @@ const Bukra = localFont({
       weight: '700',
       style: 'normal',
     },
-    // {
-    //   path: "../public/fonts/29LT-Bukra-Extra-Bold.otf",
-    //   weight: "800",
-    //   style: "normal",
-    // },
-    // {
-    //   path: "../public/fonts/29LT-Bukra-Black.otf",
-    //   weight: "900",
-    //   style: "normal",
-    // },
   ],
 });
 
@@ -128,7 +101,7 @@ export default async function RootLayout({
       dir={locale === 'en' ? 'ltr' : 'rtl'}
       className={`${Bukra.variable} overflow-x-hidden`}
     >
-      <body className="overflow-x-hidden">
+      <body className='overflow-x-hidden'>
         <NextIntlClientProvider messages={messages}>
           <div className='flex min-h-screen flex-col'>
             <NavBar locale={locale} />

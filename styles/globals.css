@@ -345,11 +345,6 @@ body {
   justify-content: center;
 }
 
-/* Services icon styling */
-.services-icon {
-  filter: brightness(0) saturate(100%) invert(49%) sepia(77%) saturate(474%) hue-rotate(135deg) brightness(96%) contrast(95%);
-}
-
 /* Mobile-optimized navigation */
 .nav-mobile-height {
   height: 70px;
