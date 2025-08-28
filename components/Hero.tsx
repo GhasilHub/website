@@ -68,11 +68,11 @@ function Hero({ locale }: LocaleProps) {
       <div className='relative w-full hidden lg:flex justify-center'>
         <div className='relative max-w-content w-full'>
           <div
-            className='absolute end-[-50px] top-[-50px] w-[406px] h-[406px] bg-accent rounded-full bg-opacity-60'
+            className='absolute end-[-50px] top-[-50px] w-[406px] h-[406px] bg-primary-light rounded-full bg-opacity-60'
             aria-hidden='true'
           />
           <div
-            className='absolute end-[443px] top-[464px] w-[168px] h-[168px] bg-primary-light rounded-full bg-opacity-60'
+            className='absolute end-[443px] top-[464px] w-[168px] h-[168px] bg-secondary rounded-full bg-opacity-60'
             aria-hidden='true'
           />
         </div>
