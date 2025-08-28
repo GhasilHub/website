@@ -46,12 +46,12 @@ const ContactMethodItem = memo<ContactMethodProps>(function ContactMethodItem({
   t,
 }) {
   return (
-    <li className={`w-full flex justify-center sm:justify-start ${method.id === 'email' ? 'sm:col-span-2 lg:col-span-1' : ''}`}>
+    <li className={`w-full flex justify-start sm:justify-center ${method.id === 'email' ? 'sm:col-span-2 xl:col-span-1' : ''}`}>
       <a
         href={method.href}
         target='_blank'
         rel='noopener noreferrer'
-        className='group flex gap-3 sm:gap-4 lg:gap-5 items-center justify-start transition-all duration-300 w-fit'
+        className='group flex gap-3 sm:gap-3 md:gap-4 lg:gap-5 items-center justify-start transition-all duration-300 w-fit'
         aria-label={method.ariaLabel}
       >
         <div className='w-12 h-12 sm:w-14 sm:h-14 lg:w-[68px] lg:h-[68px] flex-shrink-0 flex justify-center items-center bg-[#00d4aa]/50 rounded-full p-3 group-hover:bg-[#00d4aa]/70 transition-all duration-300 ease-in-out group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-blue-200/50'>
@@ -68,7 +68,7 @@ const ContactMethodItem = memo<ContactMethodProps>(function ContactMethodItem({
           <h5 className='text-text-primary text-sm sm:text-base lg:text-lg font-medium group-hover:text-[#00d4aa] transition-colors duration-300 whitespace-nowrap'>
             {t(method.label)}
           </h5>
-          <p className='text-[#00d4aa] text-sm sm:text-base lg:text-lg font-medium group-hover:brightness-110 transition-all duration-300 whitespace-nowrap'>
+          <p className='text-[#00d4aa] text-sm sm:text-base lg:text-lg font-medium group-hover:brightness-110 transition-all duration-300 break-all sm:break-normal sm:whitespace-nowrap'>
             {method.id === 'call'
               ? formatPhoneNumber(CONTACT_INFO.phone)
               : method.id === 'whatsapp'
@@ -120,13 +120,13 @@ function Contact() {
       className='w-full flex justify-center bg-white py-12 sm:py-16 lg:py-20 section-anchor'
       aria-label='Contact us section'
     >
-      <div className='max-w-content w-full px-3 sm:px-6 md:px-8 lg:px-20 flex justify-center'>
-        <address className='bg-[#0288D10A] rounded-2xl px-4 sm:px-8 md:px-12 lg:px-16 py-8 sm:py-12 lg:py-16 flex flex-col items-center w-full lg:w-fit not-italic max-w-5xl shadow-sm border border-gray-100 mx-2 sm:mx-4 md:mx-6'>
+      <div className='max-w-content w-full px-4 sm:px-6 md:px-8 lg:px-16 flex justify-center'>
+        <address className='bg-[#0288D10A] rounded-2xl px-4 sm:px-8 md:px-12 lg:px-16 py-8 sm:py-12 lg:py-16 flex flex-col items-center w-full max-w-sm sm:max-w-5xl lg:w-fit not-italic shadow-sm border border-gray-100'>
           <h2 className='text-text-primary text-base sm:text-lg lg:text-xl font-medium mb-8 sm:mb-10 lg:mb-12 text-center'>
             {t('title')}
           </h2>
           <ul
-            className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 w-full items-center place-items-center sm:place-items-start lg:place-items-center'
+            className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8 lg:gap-10 xl:gap-16 w-full items-center place-items-start sm:place-items-center'
             role='list'
             aria-label='Contact methods'
           >
