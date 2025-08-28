@@ -186,34 +186,38 @@
   },
   "FAQs": {
     "title": "Frequently Asked Questions",
-    "description": "Find answers to commonly asked questions about FlexiHi's inventory and sales management system.",
+    "description": "Find answers to commonly asked questions about GhasilHub platform",
     "0": {
-      "question": "What kind of hardware can work with FlexiHi POS software?",
-      "answer": "The FlexiHi POS software can work with barcode scanners, receipt printers, cash drawers, and other similar hardware. You can use it on iPads and Android tablets, but they need to meet certain requirements. For more details, you can contact the sales team."
+      "question": "What is GhasilHub?",
+      "answer": "GhasilHub is a smart online platform designed to simplify laundry management, from billing and customer tracking to reports and branch management."
     },
     "1": {
-      "question": "The FlexiHi POS software works offline?",
-      "answer": " Yes, the FlexiHi POS software works offline. Your device can still make sales and manage shifts even without an internet connection. However, some features like refunds, new customer registration, and a few others won't work or will be limited while offline."
+      "question": "How can I train my staff to use GhasilHub?",
+      "answer": "Our system is designed to be intuitive and easy to use. We provide training guides, videos, and dedicated support to help your team adapt quickly."
     },
     "2": {
-      "question": "Does FlexiHi POS software have the functionality of loyalty cards?",
-      "answer": "Yes, FlexiHi POS software has a built-in loyalty program. You can give your regular customers loyalty cards with a printed barcode. When they visit your store, the cashier can scan the barcode to identify them. You can also identify customers by their phone number."
+      "question": "Does GhasilHub support multiple branches?",
+      "answer": "Yes. You can manage multiple laundry branches from one dashboard. Each additional branch requires an annual add-on fee."
     },
     "3": {
-      "question": "Do I need to have a deep understanding of accounting to work with FlexiHi POS Software?",
-      "answer": "You don't need to have a deep understanding of accounting to work with FlexiHi POS software. It has an easy-to-use interface that suits all users, along with advanced tools to help experts complete their tasks professionally."
+      "question": "Can I send notifications to customers automatically?",
+      "answer": "Absolutely. GhasilHub sends automated reminders and order updates to your customers via WhatsApp."
     },
     "4": {
-      "question": "Can I record expenses on the FlexiHi POS software?",
-      "answer": "Yes, you can record expenses on the FlexiHi POS software. FlexiHi has an Expenses feature that makes it easy and accurate to track your costs and spending."
+      "question": "What happens if the system goes down?",
+      "answer": "While we ensure high uptime, unexpected outages may occur. We always work to restore services as quickly as possible."
     },
     "5": {
-      "question": "Does FlexiHi POS software supply the cashier devices?",
-      "answer": "Yes, we provide the business owner with a cashier device, a barcode reader, cash drawer, printers, and other necessary equipment by discounted prices"
+      "question": "Is customer data secure?",
+      "answer": "Yes. All customer and business data is stored securely on encrypted servers, and we comply with Omani data protection regulations."
     },
     "6": {
-      "question": "Can i get a trail version before I subscribe?",
-      "answer": "There are several demos available where you can explore the whole system before subscribing."
+      "question": "Can I try GhasilHub before subscribing?",
+      "answer": "Yes, we provide a demo version so you can explore the system before committing."
+    },
+    "7": {
+      "question": "What payment methods are available?",
+      "answer": "You can pay via bank transfer, credit card, or other available methods in Oman."
     }
   },
   "Contact": {
