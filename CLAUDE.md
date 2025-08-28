@@ -73,7 +73,7 @@ IMPORTANT: Always use Playwright MCP to access it and test the changes.
 ### Styling
 
 - Tailwind CSS v4 with custom configuration
-- Custom color palette: primary (#005394), secondary (#EF6C00), additional variants (primary-light, primary-lightest)
+- Custom color palette: primary (#855cf6), secondary (#00d4aa), additional variants (primary-light, primary-lightest)
 - Custom font family: Bukra (loaded via local fonts with 9 weight variants)
 - Custom utilities: max-w-content (1440px), m-nav-bar (94px)
 - Responsive design with full RTL/LTR support

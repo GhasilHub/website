@@ -109,7 +109,7 @@ export default function MobileMenu({
         <div className='flex flex-col gap-2 sm:gap-3 mb-6'>
           <Link
             href={NAVIGATION_SECTIONS.features}
-            className='flex items-center px-3 py-3 sm:py-4 text-[#111927] text-responsive-lg font-medium hover:text-[#EF6C00] hover:bg-gray-50 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#005394] focus:ring-offset-2 rounded-lg touch-target'
+            className='flex items-center px-3 py-3 sm:py-4 text-[#111927] text-responsive-lg font-medium hover:text-secondary hover:bg-gray-50 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-lg touch-target'
             onClick={onClose}
             role='menuitem'
           >
@@ -117,7 +117,7 @@ export default function MobileMenu({
           </Link>
           <Link
             href={NAVIGATION_SECTIONS.pricing}
-            className='flex items-center px-3 py-3 sm:py-4 text-[#111927] text-responsive-lg font-medium hover:text-[#EF6C00] hover:bg-gray-50 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#005394] focus:ring-offset-2 rounded-lg touch-target'
+            className='flex items-center px-3 py-3 sm:py-4 text-[#111927] text-responsive-lg font-medium hover:text-secondary hover:bg-gray-50 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-lg touch-target'
             onClick={onClose}
             role='menuitem'
           >
@@ -125,7 +125,7 @@ export default function MobileMenu({
           </Link>
           <Link
             href={NAVIGATION_SECTIONS.faqs}
-            className='flex items-center px-3 py-3 sm:py-4 text-[#111927] text-responsive-lg font-medium hover:text-[#EF6C00] hover:bg-gray-50 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#005394] focus:ring-offset-2 rounded-lg touch-target'
+            className='flex items-center px-3 py-3 sm:py-4 text-[#111927] text-responsive-lg font-medium hover:text-secondary hover:bg-gray-50 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-lg touch-target'
             onClick={onClose}
             role='menuitem'
           >
@@ -136,7 +136,7 @@ export default function MobileMenu({
           <div className='flex gap-3 sm:gap-4 items-center justify-center sm:justify-start mt-4 p-3 bg-gray-50 rounded-lg'>
             <a
               href={`tel:${CONTACT_INFO.phone}`}
-              className='flex items-center justify-center p-3 bg-white hover:bg-[#005394] hover:text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#005394] focus:ring-offset-2 rounded-lg shadow-sm touch-target'
+              className='flex items-center justify-center p-3 bg-white hover:bg-primary hover:text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-lg shadow-sm touch-target'
               aria-label='Call us'
               role='menuitem'
             >
@@ -152,7 +152,7 @@ export default function MobileMenu({
               href={`https://wa.me/${CONTACT_INFO.whatsapp}`}
               target='_blank'
               rel='noopener noreferrer'
-              className='flex items-center justify-center p-3 bg-white hover:bg-[#25D366] hover:text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#005394] focus:ring-offset-2 rounded-lg shadow-sm touch-target'
+              className='flex items-center justify-center p-3 bg-white hover:bg-[#25D366] hover:text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-lg shadow-sm touch-target'
               aria-label='WhatsApp us'
               role='menuitem'
             >
@@ -166,7 +166,7 @@ export default function MobileMenu({
             </a>
             <a
               href={`mailto:${CONTACT_INFO.email}`}
-              className='flex items-center justify-center p-3 bg-white hover:bg-[#EF6C00] hover:text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#005394] focus:ring-offset-2 rounded-lg shadow-sm touch-target'
+              className='flex items-center justify-center p-3 bg-white hover:bg-secondary/80 hover:text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-lg shadow-sm touch-target'
               aria-label='Email us'
               role='menuitem'
             >
@@ -191,7 +191,7 @@ export default function MobileMenu({
             href={EXTERNAL_LINKS.admin}
             target='_blank'
             rel='noopener noreferrer'
-            className='flex items-center justify-center px-4 py-3 sm:py-4 text-[#EF6C00] text-responsive-lg font-medium hover:text-white hover:bg-[#EF6C00] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#005394] focus:ring-offset-2 rounded-lg border-2 border-[#EF6C00] touch-target'
+            className='flex items-center justify-center px-4 py-3 sm:py-4 text-secondary text-responsive-lg font-medium hover:text-white hover:bg-secondary transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-lg border-2 border-secondary touch-target'
             onClick={onClose}
             role='menuitem'
           >

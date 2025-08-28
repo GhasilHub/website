@@ -108,7 +108,7 @@ export default function NavBar({ locale }: LocaleProps) {
               {/* Sign Up Button */}
               <Link
                 href='#contact'
-                className='bg-[#EF6C00] text-white px-3 sm:px-4 py-2 rounded-xl text-xs sm:text-sm font-medium hover:bg-[#005394] transition-colors duration-200 touch-target'
+                className='bg-secondary/80 text-white px-3 sm:px-4 py-2 rounded-xl text-xs sm:text-sm font-medium hover:bg-secondary transition-colors duration-200 touch-target'
               >
                 {t('signUp')}
               </Link>
