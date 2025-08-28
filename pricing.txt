@@ -1,0 +1,21 @@
+
+Notes:
+- No monthly/annual pricing
+- There are no packages
+- There is only the basic price and then add ons that can be purchased with the only package.
+
+The features are as follows for the basic:
+- Access to GhasilHub cloud software.
+- Unlimited orders
+- Basic orders & payment tracking
+- Analytics and reporting
+- WhatsApp support
+- Customer management and tracking
+- User and emloyee management
+
+The price is OMR 80
+
+And then the user can buy add ons for 45 Rial
+- Add ons
+- Multi location service
+- Add location

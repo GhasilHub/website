@@ -181,5 +181,207 @@
     "admin": "GhasilHub Access",
     "copyright": "© {year} GhasilHub. All rights reserved",
     "getApp": "Get the App"
+  },
+  "TermsAndConditions": {
+    "title": "Terms & Conditions",
+    "subtitle": "GhasilHub Terms and Conditions",
+    "description": "Review our terms and conditions for using GhasilHub laundry management system.",
+    "effectiveDate": "Effective date: 01/01/2025",
+    "lastUpdated": "Last updated: 08/21/2025",
+    "introduction": "Welcome to GhasilHub.com , the online laundry management software. By accessing and using the system, you agree to abide by all of the following terms and conditions:",
+    "sections": {
+      "definitions": {
+        "title": "1. Definitions",
+        "content": [
+          "System : refers to the GhasilHub software and all of its online services.",
+          "User : The owner or employee of the laundry who has registered and used the system.",
+          "End Customer : The consumer who receives laundry services through the User.",
+          "We/The Company : The GhasilHub team responsible for developing and operating the platform."
+        ]
+      },
+      "registration": {
+        "title": "2. Registration and Use",
+        "content": [
+          "The user must be registered as an institution, business or individual licensed to conduct laundry business.",
+          "The user is responsible for the accuracy and correctness of the information he provides upon registration.",
+          "The user is obligated to maintain the confidentiality of login data and passwords and not to share them with others."
+        ]
+      },
+      "responsibilities": {
+        "title": "3. User Responsibilities",
+        "content": [
+          "The User acknowledges that it is his responsibility to collect his customers' consent before sending automated messages (such as invoices or WhatsApp alerts).",
+          "The User undertakes to use the System only for legal purposes related to the management of laundries.",
+          "It is prohibited to use the system for any illegal activities or activities that violate Omani laws."
+        ]
+      },
+      "services": {
+        "title": "4. System Services",
+        "content": [
+          "The system provides services including: invoice management, customer tracking, financial reports, branch management, and WhatsApp alerts.",
+          "The Services may be developed or updated from time to time, and the Company reserves the right to modify or add new features without prior notice."
+        ]
+      },
+      "payment": {
+        "title": "5. Fees and Payment",
+        "content": [
+          "The annual subscription to the system is 80 Omani riyals for the basic laundry .",
+          "Adding any additional branch with an annual fee of 45 Omani riyals per branch .",
+          "Fees paid are non-refundable after account activation.",
+          "The company has the right to modify prices, and users will be notified in advance."
+        ]
+      },
+      "maintenance": {
+        "title": "6. Breakdowns and maintenance",
+        "content": [
+          "The system may be temporarily down due to maintenance or technical failures.",
+          "The company is not responsible for any direct or indirect losses that may result from the service interruption.",
+          "We always strive to restore service as quickly as possible."
+        ]
+      },
+      "intellectual": {
+        "title": "7. Intellectual Property",
+        "content": [
+          "All intellectual property rights, software, designs and logos belong to GhasilHub.",
+          "No part of the System may be copied or reproduced without prior written permission from the Company."
+        ]
+      },
+      "liability": {
+        "title": "8. Limitation of Liability",
+        "content": [
+          "The company is not responsible for any error resulting from the user entering incorrect data.",
+          "The company is not responsible for any dispute between the laundry (user) and the end customer.",
+          "The system is used \"as is\" without any absolute warranties."
+        ]
+      },
+      "termination": {
+        "title": "9. Termination of Service",
+        "content": [
+          "The Company has the right to suspend or terminate the user's account in the event of:",
+          "Violation of terms and conditions.",
+          "System abuse.",
+          "Failure to pay the due fees."
+        ]
+      },
+      "modifications": {
+        "title": "10. Modifications to the Terms",
+        "content": [
+          "The Company reserves the right to modify or update these Terms at any time without prior notice.",
+          "The user should review the Terms and Conditions page periodically to ensure that he/she has the most current version.",
+          "Continued use of the System after any modification constitutes the User's implicit acceptance of the updated Terms."
+        ]
+      },
+      "law": {
+        "title": "11. Applicable law",
+        "content": [
+          "These terms are subject to the provisions of the laws and regulations in force in the Sultanate of Oman .",
+          "In the event of a dispute, the competent courts in the Sultanate of Oman shall be the authority authorized to adjudicate it."
+        ]
+      },
+      "communication": {
+        "title": "12. Communication",
+        "content": [
+          "For inquiries or support: support@ghasilhub.com",
+          "Phone: +968 XXXXXXXX"
+        ]
+      }
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "subtitle": "GhasilHub Privacy Policy",
+    "description": "Review our privacy policy and data protection practices for using GhasilHub laundry management system.",
+    "effectiveDate": "Effective date: 01/01/2025",
+    "lastUpdated": "Last updated: 08/21/2025",
+    "introduction": "Welcome to GhasilHub.com , the smart laundry management software. We are committed to protecting your privacy and ensuring the legal and safe use of our services in compliance with applicable laws in the Sultanate of Oman. By using the platform, you agree to this policy in all its terms.",
+    "sections": {
+      "collecting": {
+        "title": "1. Collecting information",
+        "subtitle": "When you register and use the system, we collect the following data:",
+        "content": [
+          "User data (name, phone number, email, password).",
+          "Laundry data (business name, address, commercial register if available).",
+          "Final customer data (name, phone number, orders, invoices).",
+          "Technical usage data (IP address, device and browser type, time and date)."
+        ]
+      },
+      "usage": {
+        "title": "2. Use of information",
+        "subtitle": "The information we collect is used for the following purposes:",
+        "content": [
+          "Manage accounts and branches and link them to the control panel.",
+          "Issuing invoices and organizing customer orders.",
+          "Send notifications and alerts to customers via WhatsApp or email.",
+          "Providing technical support and developing services.",
+          "Preparing reports and statistics to improve performance."
+        ]
+      },
+      "sharing": {
+        "title": "3. Sharing information",
+        "content": [
+          "We do not sell or rent your data to any third party.",
+          "Some data may be shared with service providers (such as hosting servers or message gateways) solely for the purpose of operating the system.",
+          "Official bodies in the Sultanate of Oman may request access to data in accordance with the law."
+        ]
+      },
+      "security": {
+        "title": "4. Data storage and security",
+        "content": [
+          "Data is stored on certified secure servers.",
+          "We take technical and organizational measures to protect your data from unauthorized access, modification, or deletion.",
+          "In the event of a technical failure or breach, we are committed to informing customers within a reasonable period of time."
+        ]
+      },
+      "whatsapp": {
+        "title": "5. Customer notifications via WhatsApp",
+        "content": [
+          "The system sends automated messages (invoices, alerts, readiness notifications) via WhatsApp.",
+          "By using the System, you acknowledge that you have obtained your customers' consent to send these messages.",
+          "GhasilHub is not responsible for any objections from customers unless their prior consent is activated."
+        ]
+      },
+      "outages": {
+        "title": "6. Malfunctions and Service Outages",
+        "content": [
+          "The system may be temporarily down due to maintenance or unexpected server failures.",
+          "We are not responsible for any direct or indirect losses resulting from this downtime.",
+          "We are doing our best to restore service as soon as possible."
+        ]
+      },
+      "rights": {
+        "title": "7. User Rights",
+        "content": [
+          "You have the right to request a copy of your data held with us.",
+          "You can request to modify or delete your data at any time.",
+          "You can cancel your subscription to the system while still being liable for the fees due for the previous period."
+        ]
+      },
+      "payment": {
+        "title": "8. Payment and Return Policy",
+        "content": [
+          "Subscriptions are annual and non-refundable after activation.",
+          "In the event of a long-term malfunction or permanent system outage, the user may be compensated at the discretion of the administration."
+        ]
+      },
+      "amendments": {
+        "title": "9. Amendments to the Policy",
+        "content": [
+          "GhasilHub reserves the right to modify this policy at any time.",
+          "Users will be notified of any material changes via email or through the control panel."
+        ]
+      },
+      "contact": {
+        "title": "10. Contact us",
+        "subtitle": "For inquiries or complaints related to privacy, you may contact us via:",
+        "content": [
+          "Email: privacy@ghasilhub.com",
+          "Phone: +968 XXXXXXXX"
+        ]
+      }
+    },
+    "legalNote": {
+      "title": "📌 Legal note :",
+      "content": "This policy has been prepared to comply with general laws in the Sultanate of Oman and internationally recognized data protection standards. Your use of the service constitutes your full acceptance of these terms."
+    }
   }
 }
