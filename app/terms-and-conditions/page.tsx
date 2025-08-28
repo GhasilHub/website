@@ -1,18 +1,18 @@
-import OfficialPage from "@/components/OfficialPage";
-import { Metadata } from "next";
+import OfficialPage from '@/components/OfficialPage';
+import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "FlexiHi - Terms & Conditions",
+  title: 'GhasilHub - Terms & Conditions',
 };
 
 export default function TermsPage() {
   return (
     <OfficialPage
-      title="Terms & Conditions"
-      desc="From the small stuff to the big picture, organizes the work so
-    teams know what to do, why it matters, and how to get it done."
+      title='Terms & Conditions'
+      desc='From the small stuff to the big picture, organizes the work so
+    teams know what to do, why it matters, and how to get it done.'
     >
-      <p className="official-page-p">
+      <p className='official-page-p'>
         Lorem ipsum dolor sit amet consectetur. Eu erat mi eu id velit mauris.
         Sed nibh velit sapien aliquam aliquet turpis in amet. Tortor quam risus
         nisl a pretium arcu. Risus in id iaculis habitasse purus neque arcu.
@@ -39,8 +39,8 @@ export default function TermsPage() {
         phasellus. Cursus ipsum sit molestie vitae risus orci tempor urna.
         Rutrum duis placerat libero viverra vitae.
       </p>
-      <h2 className="official-page-h2">License</h2>
-      <p className="official-page-p">
+      <h2 className='official-page-h2'>License</h2>
+      <p className='official-page-p'>
         Lorem ipsum dolor sit amet consectetur. Vestibulum faucibus id enim
         commodo ac. Commodo odio pharetra praesent cras fermentum vulputate.
         Commodo mauris morbi consectetur gravida eu. In et quis commodo tortor
@@ -53,8 +53,8 @@ export default function TermsPage() {
         volutpat sed ac nunc vel pulvinar augue. Amet aliquet vivamus molestie
         pretium sed massa congue vel dictumst.
       </p>
-      <h2 className="official-page-h2">License</h2>
-      <p className="official-page-p">
+      <h2 className='official-page-h2'>License</h2>
+      <p className='official-page-p'>
         Lorem ipsum dolor sit amet consectetur. Pulvinar sit iaculis in diam
         enim. Pharetra et risus adipiscing tempor. Faucibus at blandit ut
         consectetur faucibus gravida tellus lorem sed. Aliquam eget leo molestie
@@ -76,8 +76,8 @@ export default function TermsPage() {
         proin mauris elit. Lectus sit netus nunc non massa netus commodo. Proin
         sem cras cras justo dignissim amet dictum.
       </p>
-      <h2 className="official-page-h2">License</h2>
-      <p className="official-page-p">
+      <h2 className='official-page-h2'>License</h2>
+      <p className='official-page-p'>
         Lorem ipsum dolor sit amet consectetur. Pulvinar sit iaculis in diam
         enim. Pharetra et risus adipiscing tempor. Faucibus at blandit ut
         consectetur faucibus gravida tellus lorem sed. Aliquam eget leo molestie

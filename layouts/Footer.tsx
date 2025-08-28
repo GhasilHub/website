@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import footerLogo from '@/public/footer-logo.svg';
+import logo from '@/public/navbar-logo.svg';
 import appStoreButton from '@/public/footer-app-store-button.svg';
 import googlePlayButton from '@/public/footer-google-play-button.svg';
 import { CONTACT_INFO, EXTERNAL_LINKS } from './constants';
@@ -23,10 +23,11 @@ export default function Footer({ locale }: LocaleProps) {
               className='hover:opacity-80 transition-opacity duration-200'
             >
               <Image
-                src={footerLogo}
-                alt='flexihi logo'
+                src={logo}
+                alt='GhasilHub logo'
+                className='h-10 w-auto'
                 loading='lazy'
-                sizes='(max-width: 768px) 120px, 140px'
+                sizes='(max-width: 768px) 100px, 120px'
               />
             </Link>
             <div>
@@ -60,12 +61,12 @@ export default function Footer({ locale }: LocaleProps) {
                 {t('refundPolicy')}
               </Link>
               <a
-                href={EXTERNAL_LINKS.backOffice}
+                href={EXTERNAL_LINKS.admin}
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:text-primary transition-colors duration-200'
               >
-                {t('backOffice')}
+                {t('admin')}
               </a>
             </div>
             <div className='text-sm text-text-secondary'>

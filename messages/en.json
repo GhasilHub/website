@@ -67,64 +67,6 @@
       "description": "Simple and fast interface suitable for laundry owners and employees without complexity."
     }
   },
-  "Demos": {
-    "title": "Demos",
-    "description": "Whether you're in retail or wholesale, or having restaurants and shops, we've got you covered. FlexiHI manages all your inventory and sales requirements.",
-    "categories": {
-      "retail": {
-        "title": "Retail Stores",
-        "items": [
-          "Clothing store",
-          "Electronic store",
-          "Cold store",
-          "Grocery store"
-        ]
-      },
-      "boutique": {
-        "title": "Boutique Shops",
-        "items": [
-          "Clothing store",
-          "Electronic store",
-          "Cold store",
-          "Grocery store"
-        ]
-      },
-      "flower": {
-        "title": "Flower shops",
-        "items": [
-          "Clothing store",
-          "Electronic store",
-          "Cold store",
-          "Grocery store"
-        ]
-      },
-      "cafe": {
-        "title": "Cafe & Restaurants",
-        "items": [
-          "Clothing store",
-          "Electronic store",
-          "Cold store",
-          "Grocery store"
-        ]
-      },
-      "service": {
-        "title": "Service Business",
-        "items": ["Saloon", "Repair service"]
-      },
-      "wholesale": {
-        "title": "Wholesale & Warehouse",
-        "items": [
-          "Clothing store",
-          "Electronic store",
-          "Cold store",
-          "Grocery store"
-        ]
-      }
-    },
-    "button": {
-      "openDemo": "Open demo"
-    }
-  },
   "Pricing": {
     "title": "Pricing & Plans",
     "description": "Choose the plan that best fits your requirements and budget. Get started today and take your sales to the next level!",
@@ -227,7 +169,7 @@
     "email": "Email"
   },
   "Apps": {
-    "title": "Enhance your sales process with FlexiHI!",
+    "title": "Enhance your sales process with GhasilHub!",
     "description": "Download our app today from Google Play or Apple Store"
   },
   "Footer": {
@@ -236,8 +178,8 @@
     "termsConditions": "Terms & conditions",
     "privacyPolicy": "Privacy Policy",
     "refundPolicy": "Refund Policy",
-    "backOffice": "Back office",
-    "copyright": "© {year} FlexiHi. All rights reserved",
+    "admin": "GhasilHub Access",
+    "copyright": "© {year} GhasilHub. All rights reserved",
     "getApp": "Get the App"
   }
 }

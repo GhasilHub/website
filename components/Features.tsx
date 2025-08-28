@@ -192,7 +192,7 @@ function Features() {
     <section
       className='w-full flex justify-center py-12 lg:py-24 section-anchor overflow-x-hidden bg-primary-lightest'
       id='features'
-      aria-label='FlexiHi product features showcase'
+      aria-label='GhasilHub product features showcase'
     >
       <div className='max-w-content w-full overflow-x-hidden px-6 sm:px-8 md:px-12 lg:px-16'>
         <div className='px-6 sm:px-8 md:px-12'>

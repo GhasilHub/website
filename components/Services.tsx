@@ -81,7 +81,7 @@ function Services() {
   return (
     <section
       className='w-full bg-secondary/[0.04] flex justify-center overflow-x-hidden'
-      aria-label='FlexiHi services and support offerings'
+      aria-label='GhasilHub services and support offerings'
     >
       <div className='max-w-content w-full py-12 md:py-16 lg:py-24 px-5 sm:px-8 md:px-16 lg:px-28'>
         <h1 className='section-header'>{t('title')}</h1>

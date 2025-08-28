@@ -31,7 +31,7 @@ export default function NavBar({ locale }: LocaleProps) {
               >
                 <Image
                   src={logo}
-                  alt='flexihi logo'
+                  alt='GhasilHub logo'
                   className='h-10 w-auto'
                   priority
                   sizes='140px'
@@ -56,7 +56,7 @@ export default function NavBar({ locale }: LocaleProps) {
               >
                 <Image
                   src={logo}
-                  alt='flexihi logo'
+                  alt='GhasilHub logo'
                   className='me-8 xl:me-14 h-10 xl:h-12 w-auto'
                   priority
                   sizes='(max-width: 1280px) 140px, 160px'
@@ -97,7 +97,7 @@ export default function NavBar({ locale }: LocaleProps) {
                 >
                   <Image
                     src={logo}
-                    alt='flexihi logo'
+                    alt='GhasilHub logo'
                     className='h-8 sm:h-9 w-auto'
                     priority
                     sizes='(max-width: 640px) 120px, 140px'
@@ -107,7 +107,7 @@ export default function NavBar({ locale }: LocaleProps) {
 
               {/* Sign Up Button */}
               <a
-                href={EXTERNAL_LINKS.backOffice}
+                href={EXTERNAL_LINKS.admin}
                 target='_blank'
                 rel='noopener noreferrer'
                 className='bg-[#EF6C00] text-white px-3 sm:px-4 py-2 rounded-xl text-xs sm:text-sm font-medium hover:bg-[#005394] transition-colors duration-200 touch-target'
@@ -119,7 +119,7 @@ export default function NavBar({ locale }: LocaleProps) {
             {/* Desktop Right Section */}
             <ul className='hidden md:flex gap-3 lg:gap-4 xl:gap-8 items-center text-text-primary'>
               <a
-                href={EXTERNAL_LINKS.backOffice}
+                href={EXTERNAL_LINKS.admin}
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -131,7 +131,7 @@ export default function NavBar({ locale }: LocaleProps) {
                 </button>
               </a>
               <a
-                href={EXTERNAL_LINKS.backOffice}
+                href={EXTERNAL_LINKS.admin}
                 target='_blank'
                 rel='noopener noreferrer'
               >

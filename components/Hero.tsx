@@ -23,7 +23,7 @@ const HeroButtons = memo(function HeroButtons({
         href={`${process.env.NEXT_PUBLIC_BACK_OFFICE_URL}`}
         target='_blank'
         rel='noopener noreferrer'
-        aria-label='Start using FlexiHi platform'
+        aria-label='Start using GhasilHub platform'
       >
         <button
           className='btn-primary focus-ring min-w-[140px] px-6'
@@ -62,7 +62,7 @@ function Hero({ locale }: LocaleProps) {
   return (
     <section
       className='relative w-full flex flex-col items-center min-h-[600px] md:min-h-[700px] lg:min-h-[866px] overflow-x-hidden bg-primary-lightest'
-      aria-label='Hero section showcasing FlexiHi business management platform'
+      aria-label='Hero section showcasing GhasilHub business management platform'
     >
       {/* Decorative background elements - hidden on mobile/tablet */}
       <div className='relative w-full hidden lg:flex justify-center'>
@@ -112,7 +112,7 @@ function Hero({ locale }: LocaleProps) {
           <div className='flex flex-col gap-4 w-full lg:w-auto lg:flex-shrink-0 items-center'>
             <Image
               src={chartImage}
-              alt='FlexiHi analytics chart showing business performance metrics'
+              alt='GhasilHub analytics chart showing business performance metrics'
               priority
               width={700}
               height={525}
