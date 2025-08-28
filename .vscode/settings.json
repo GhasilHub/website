@@ -33,7 +33,6 @@
     "package-lock.json": true,
     "phpunit.xml": true,
     "postcss.config.mjs": true,
-    "public": true,
     "pubspec.lock": true,
     "README.md": true,
     "storage": true,
@@ -41,7 +40,8 @@
     "tsconfig.json": true,
     "tsconfig.tsbuildinfo": true,
     "vendor": true,
-    "vite.config.ts": true
+    "vite.config.ts": true,
+    "public": false
   },
   "explorerExclude.backup": {}
 }

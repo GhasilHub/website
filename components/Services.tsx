@@ -45,14 +45,14 @@ interface ServiceCardProps {
 const ServiceCard = memo(function ServiceCard({ service, t, index }: ServiceCardProps) {
   return (
     <li className="group">
-      <article className="flex flex-col items-center lg:items-start text-center lg:text-left transition-transform duration-300 hover:transform hover:scale-[1.02] focus-within:transform focus-within:scale-[1.02]">
+      <article className="flex flex-col items-center lg:items-start text-center lg:text-start transition-transform duration-300 hover:transform hover:scale-[1.02] focus-within:transform focus-within:scale-[1.02]">
         <div className="transition-transform duration-300 group-hover:scale-110">
           <Image 
             src={service.icon} 
             alt={service.altText}
             width={64}
             height={64}
-            className="w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 object-contain"
+            className="w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 object-contain services-icon"
             priority={index === 0}
             loading={index === 0 ? "eager" : "lazy"}
           />
@@ -60,7 +60,7 @@ const ServiceCard = memo(function ServiceCard({ service, t, index }: ServiceCard
         <h3 className="mt-6 md:mt-9 text-text-primary text-base md:text-lg font-bold leading-tight transition-colors duration-200 group-hover:text-secondary">
           {t(`${service.translationKey}.title`)}
         </h3>
-        <p className="mt-4 text-text-secondary text-sm md:text-base leading-6 md:leading-8 text-center lg:text-left transition-colors duration-200 group-hover:text-text-primary">
+        <p className="mt-4 text-text-secondary text-sm md:text-base leading-6 md:leading-8 text-center lg:text-start transition-colors duration-200 group-hover:text-text-primary">
           {t(`${service.translationKey}.description`)}
         </p>
       </article>
