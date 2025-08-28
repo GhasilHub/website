@@ -1,14 +1,14 @@
 'use client';
 
 import Image, { StaticImageData } from 'next/image';
-import featureImage1 from '@/public/features-1.svg';
-import featureImage2 from '@/public/features-2.svg';
-import featureImage3 from '@/public/features-3.svg';
-import featureImage4 from '@/public/features-4.svg';
-import featureImage5 from '@/public/features-5.svg';
-import featureImage6 from '@/public/features-6.svg';
-import featureImage7 from '@/public/features-7.svg';
-import featureImage8 from '@/public/features-8.svg';
+import featureImage1 from '@/public/features-1.png';
+import featureImage2 from '@/public/features-2.png';
+import featureImage3 from '@/public/features-3.png';
+import featureImage4 from '@/public/features-4.png';
+import featureImage5 from '@/public/features-5.png';
+import featureImage6 from '@/public/features-6.png';
+import featureImage7 from '@/public/features-7.png';
+import featureImage8 from '@/public/features-8.png';
 import arrowForward from '@/public/features-arrow-forward.svg';
 import arrowBack from '@/public/features-arrow-back.svg';
 import {
