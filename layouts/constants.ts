@@ -7,7 +7,7 @@ export const CONTACT_INFO = {
 } as const;
 
 export const EXTERNAL_LINKS = {
-  admin: process.env.NEXT_PUBLIC_BACK_OFFICE_URL || '#',
+  admin: process.env.NEXT_PUBLIC_ADMIN_URL || '#',
 } as const;
 
 export const NAVIGATION_SECTIONS = {

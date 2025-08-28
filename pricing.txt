@@ -19,3 +19,6 @@ And then the user can buy add ons for 45 Rial
 - Add ons
 - Multi location service
 - Add location
+
+
+Looking for more? Contact us with a contact us button that will scroll the user to the contact section.

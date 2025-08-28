@@ -180,7 +180,6 @@
     "contactUs": "اتصل بنا",
     "termsConditions": "الشروط والأحكام",
     "privacyPolicy": "سياسة الخصوصية",
-    "refundPolicy": "سياسة الاسترداد",
     "admin": "دخول غسيل هب",
     "copyright": "© {year} GhasilHub. جميع الحقوق محفوظة",
     "getApp": "احصل على التطبيق"
@@ -283,10 +282,8 @@
       },
       "communication": {
         "title": "12. التواصل",
-        "content": [
-          "للاستفسارات أو الدعم: support@ghasilhub.com",
-          "الهاتف: +968 XXXXXXXX"
-        ]
+        "email": "للاستفسارات أو الدعم",
+        "phone": "الهاتف"
       }
     }
   },
@@ -376,10 +373,8 @@
       "contact": {
         "title": "10. التواصل معنا",
         "subtitle": "للاستفسارات أو الشكاوى المتعلقة بالخصوصية، يمكنكم التواصل عبر:",
-        "content": [
-          "البريد الإلكتروني: privacy@ghasilhub.com",
-          "الهاتف: +968 XXXXXXXX"
-        ]
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف"
       }
     },
     "legalNote": {

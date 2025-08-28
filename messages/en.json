@@ -177,7 +177,6 @@
     "contactUs": "Contact us",
     "termsConditions": "Terms & conditions",
     "privacyPolicy": "Privacy Policy",
-    "refundPolicy": "Refund Policy",
     "admin": "GhasilHub Access",
     "copyright": "© {year} GhasilHub. All rights reserved",
     "getApp": "Get the App"
@@ -280,10 +279,8 @@
       },
       "communication": {
         "title": "12. Communication",
-        "content": [
-          "For inquiries or support: support@ghasilhub.com",
-          "Phone: +968 XXXXXXXX"
-        ]
+        "email": "For inquiries or support",
+        "phone": "Phone"
       }
     }
   },
@@ -373,10 +370,8 @@
       "contact": {
         "title": "10. Contact us",
         "subtitle": "For inquiries or complaints related to privacy, you may contact us via:",
-        "content": [
-          "Email: privacy@ghasilhub.com",
-          "Phone: +968 XXXXXXXX"
-        ]
+        "email": "Email",
+        "phone": "Phone"
       }
     },
     "legalNote": {

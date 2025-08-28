@@ -54,12 +54,6 @@ export default function Footer({ locale }: LocaleProps) {
               >
                 {t('privacyPolicy')}
               </Link>
-              <Link
-                href='/refund-policy'
-                className='hover:text-primary transition-colors duration-200'
-              >
-                {t('refundPolicy')}
-              </Link>
               <a
                 href={EXTERNAL_LINKS.admin}
                 target='_blank'

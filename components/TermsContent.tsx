@@ -2,6 +2,7 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import clsx from 'clsx';
+import { CONTACT_INFO } from '@/layouts/constants';
 
 export default function TermsContent() {
   const t = useTranslations('TermsAndConditions');
@@ -315,17 +316,24 @@ export default function TermsContent() {
             {t('sections.communication.title')}
           </h2>
           <div className="space-y-3 sm:space-y-4">
-            {t.raw('sections.communication.content').map((item: string, index: number) => (
-              <p key={index} className={clsx(
-                "text-text-primary text-sm sm:text-base leading-6 sm:leading-7",
-                {
-                  "pl-4": !isRtl,
-                  "pr-4": isRtl
-                }
-              )}>
-                • {item}
-              </p>
-            ))}
+            <p className={clsx(
+              "text-text-primary text-sm sm:text-base leading-6 sm:leading-7",
+              {
+                "pl-4": !isRtl,
+                "pr-4": isRtl
+              }
+            )}>
+              • {t('sections.communication.email')}: {CONTACT_INFO.email}
+            </p>
+            <p className={clsx(
+              "text-text-primary text-sm sm:text-base leading-6 sm:leading-7",
+              {
+                "pl-4": !isRtl,
+                "pr-4": isRtl
+              }
+            )}>
+              • {t('sections.communication.phone')}: {CONTACT_INFO.phoneDisplay}
+            </p>
           </div>
         </section>
       </div>

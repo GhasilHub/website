@@ -97,4 +97,4 @@ IMPORTANT: Always use Playwright MCP to access it and test the changes.
 - `config.ts` - Global configuration constants (DEFAULT_LOCALE, NUMBER_OF_FAQS)
 - `i18n.ts` - next-intl server configuration with cookie-based locale detection
 - `types/LocaleProps.ts` - TypeScript interface for locale prop typing
-- Static policy pages: privacy-policy, refund-policy, terms-and-conditions
+- Static policy pages: privacy-policy, terms-and-conditions

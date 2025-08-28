@@ -2,6 +2,7 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import clsx from 'clsx';
+import { CONTACT_INFO } from '@/layouts/constants';
 
 export default function PrivacyContent() {
   const t = useTranslations('PrivacyPolicy');
@@ -274,17 +275,24 @@ export default function PrivacyContent() {
             {t('sections.contact.subtitle')}
           </p>
           <div className="space-y-3 sm:space-y-4">
-            {t.raw('sections.contact.content').map((item: string, index: number) => (
-              <p key={index} className={clsx(
-                "text-text-primary text-sm sm:text-base leading-6 sm:leading-7",
-                {
-                  "pl-4": !isRtl,
-                  "pr-4": isRtl
-                }
-              )}>
-                • {item}
-              </p>
-            ))}
+            <p className={clsx(
+              "text-text-primary text-sm sm:text-base leading-6 sm:leading-7",
+              {
+                "pl-4": !isRtl,
+                "pr-4": isRtl
+              }
+            )}>
+              • {t('sections.contact.email')}: {CONTACT_INFO.email}
+            </p>
+            <p className={clsx(
+              "text-text-primary text-sm sm:text-base leading-6 sm:leading-7",
+              {
+                "pl-4": !isRtl,
+                "pr-4": isRtl
+              }
+            )}>
+              • {t('sections.contact.phone')}: {CONTACT_INFO.phoneDisplay}
+            </p>
           </div>
         </section>
 
