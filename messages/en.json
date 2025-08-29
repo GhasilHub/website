@@ -93,7 +93,7 @@
       "currency": "OMR",
       "period": "year",
       "multiLocation": "Multi location service",
-      "addLocation": "Add location"
+      "addLocation": "Add new branch"
     },
     "custom": {
       "title": "Looking for more?",
@@ -173,7 +173,7 @@
           "System : refers to the GhasilHub software and all of its online services.",
           "User : The owner or employee of the laundry who has registered and used the system.",
           "End Customer : The consumer who receives laundry services through the User.",
-          "We/The Company : The GhasilHub team responsible for developing and operating the platform."
+          "We/The Company : The GhasilHub team under company with CR 1103313 responsible for developing and operating the platform."
         ]
       },
       "registration": {
@@ -252,7 +252,7 @@
         "title": "11. Applicable law",
         "content": [
           "These terms are subject to the provisions of the laws and regulations in force in the Sultanate of Oman .",
-          "In the event of a dispute, the competent courts in the Sultanate of Oman shall be the authority authorized to adjudicate it."
+          "In the event of a dispute, the competent courts in the Sultanate of Oman, Muscat - Al Seeb shall be the authority authorized to adjudicate it."
         ]
       },
       "communication": {
