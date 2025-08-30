@@ -19,10 +19,8 @@ const HeroButtons = memo(function HeroButtons({
 }) {
   return (
     <div className='flex flex-wrap gap-3 mt-4 sm:mt-2 md:mt-1 justify-center lg:justify-start'>
-      <a
-        href={`${process.env.NEXT_PUBLIC_ADMIN_URL}`}
-        target='_blank'
-        rel='noopener noreferrer'
+      <Link
+        href='#contact'
         aria-label='Start using GhasilHub platform'
       >
         <button
@@ -31,7 +29,7 @@ const HeroButtons = memo(function HeroButtons({
         >
           {t('buttons.start')}
         </button>
-      </a>
+      </Link>
     </div>
   );
 });
