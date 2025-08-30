@@ -106,34 +106,35 @@ export default function NavBar({ locale }: LocaleProps) {
               </div>
 
               {/* Sign Up Button */}
-              <Link
-                href='#contact'
-                className='bg-secondary/80 text-white px-3 sm:px-4 py-2 rounded-xl text-xs sm:text-sm font-medium hover:bg-secondary transition-colors duration-200 touch-target'
-              >
-                {t('signUp')}
-              </Link>
-            </div>
-
-            {/* Desktop Right Section */}
-            <ul className='hidden md:flex gap-3 lg:gap-4 xl:gap-8 items-center text-text-primary'>
               <a
                 href={EXTERNAL_LINKS.admin}
                 target='_blank'
                 rel='noopener noreferrer'
+                className='bg-secondary/80 text-white px-3 sm:px-4 py-2 rounded-xl text-xs sm:text-sm font-medium hover:bg-secondary transition-colors duration-200 touch-target'
               >
+                {t('login')}
+              </a>
+            </div>
+
+            {/* Desktop Right Section */}
+            <ul className='hidden md:flex gap-3 lg:gap-4 xl:gap-8 items-center text-text-primary'>
+              <Link href='#contact'>
                 <button
                   className='text-secondary font-medium text-responsive-base hover:text-primary transition-colors duration-200 touch-target'
                   type='button'
                 >
-                  {t('login')}
+                  {t('signUp')}
                 </button>
-              </a>
-              <Link
-                href='#contact'
+              </Link>
+
+              <a
+                href={EXTERNAL_LINKS.admin}
+                target='_blank'
+                rel='noopener noreferrer'
                 className='text-white font-medium text-responsive-base rounded-xl bg-secondary px-3 lg:px-4 xl:px-6 py-2 hover:bg-primary hover:shadow-md transition-all duration-200 touch-target'
               >
-                {t('signUp')}
-              </Link>
+                {t('login')}
+              </a>
               <LangSwitchButton locale={locale} />
             </ul>
           </nav>
